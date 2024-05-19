@@ -204,6 +204,7 @@ background: #6c8cff;
      line-height: 1.5;
     letter-spacing: 0.04em;
     color: #2e2f42;
+    text-align: center;
 }
 .create-btn {
   border-radius: 8px;
