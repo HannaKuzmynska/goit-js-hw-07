@@ -200,10 +200,10 @@ background: #6c8cff;
     width: 150px;
     height: 40px;
     font-weight: 400;
-      font-size: 16px;
-      line-height: 1.5;
-      letter-spacing: 0.04em;
-      color: #2e2f42;
+    font-size: 16px;
+     line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
 }
 .create-btn {
   border-radius: 8px;
