@@ -1,4 +1,4 @@
-function getRandomHexColor() {
+  function getRandomHexColor() {
       return `#${Math.floor(Math.random() * 16777215)
         .toString(16)
         .padStart(6, 0)}`;
@@ -14,7 +14,7 @@ function getRandomHexColor() {
       const amount = Number(input.value);
       if (amount >= 1 && amount <= 100) {
         createBoxes(amount);
-        input.value = '';
+        input.value = ''; 
       } else {
         alert('Please enter a number between 1 and 100.');
       }
@@ -23,14 +23,13 @@ function getRandomHexColor() {
     destroyButton.addEventListener('click', destroyBoxes);
 
     function createBoxes(amount) {
-      destroyBoxes();
+      destroyBoxes(); 
       const fragment = document.createDocumentFragment();
       for (let i = 0; i < amount; i++) {
         const box = document.createElement('div');
         box.style.width = `${30 + i * 10}px`;
         box.style.height = `${30 + i * 10}px`;
         box.style.backgroundColor = getRandomHexColor();
-        box.textContent = i + 1;
         fragment.appendChild(box);
       }
       boxesContainer.appendChild(fragment);
